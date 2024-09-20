@@ -1,0 +1,61 @@
+body
+{
+    margin: 100px 250px;
+    padding: 100px 200px;
+    border: solid black 1px;
+}
+
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #006EB6;
+    border-bottom: solid lightgray 1px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 30;
+}
+
+main{
+    margin-top: 75px;
+    margin-bottom: 100px;
+}
+
+p
+{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.italic_text
+{
+    font-style: italic;
+}
+
+ol{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+li {
+    margin-bottom: 20px;
+  }
+
+.byui-logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
