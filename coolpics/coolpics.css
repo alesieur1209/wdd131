@@ -1,4 +1,26 @@
-img {
-	max-width: 100%;
+header{
+    background-color: #52489C;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+a{
+    color: white;
 }
 
+
+img {
+	max-width: 100%;
+    
+}
+
+
+footer{
+    background-color: #52489C;
+}
+footer p{
+    color: white;
+    margin-left: 20%;
+    padding: 10px;
+}
