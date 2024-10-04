@@ -1,26 +1,92 @@
 header{
     background-color: #52489C;
+    text-align: center;
+    padding: 10px;
 }
+
 h1{
     color: white;
     text-align: center;
+    font-size: 50px;
 }
-a{
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+h3{
     color: white;
+    text-align: center;
+    font-size: 30px;
 }
 
+a{
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    
+}
+
+body{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
 
 img {
 	max-width: 100%;
-    
+    border: 7px solid white;
+    box-shadow: 5px 5px 5px gray;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+
+}
+
+main{
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 
 footer{
     background-color: #52489C;
+    padding: 1px;
 }
+
 footer p{
     color: white;
     margin-left: 20%;
     padding: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+@media screen and (max-width: 1000px){
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    a{
+    color: white;
+    padding: 30px;
+}
+}
+
+@media screen and (max-width: 600px){
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    a{
+    color: white;
+    padding: 10px;
+}
 }
