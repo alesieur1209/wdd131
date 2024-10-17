@@ -5,64 +5,64 @@ Body font: Helvetica, Arial, sans-serif
 Headline font: Lora, Impact, serif (Lora can be found on Google Fonts.)*/
 
 h1{
-    color: #473144;
-    text-align: center;
+  color: #473144;
+  text-align: center;
 }
 
 p{
-    color: #473144;
+  color: #473144;
 }
 
 a{
-    color: #AF1B3F;
-    text-decoration: none;
-    font-size: 20px;
+  color: #AF1B3F;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 h2{
-    color: #AF1B3F;
+  color: #AF1B3F;
 }
 
 ul{
-  list-style-type: none;
+list-style-type: none;
 }
 
 
 nav{
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    padding: 10px;
-    border-top: 2px solid #EFC69B;
-    border-bottom: 2px solid #EFC69B;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  border-top: 2px solid #EFC69B;
+  border-bottom: 2px solid #EFC69B;
 }
 
 .grid_container{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
 
 .bookEntry1{
-  grid-column: 1/3;
-  display: grid;
+grid-column: 1/3;
+display: grid;
 }
 
 .bookInfo1 {
-    text-align: right;
-    margin: 20px;
-    padding: 10px;
-    border-right: 2px solid #EFC69B;
-    grid-column: 1/2;
-  }
+  text-align: right;
+  margin: 20px;
+  padding: 10px;
+  border-right: 2px solid #EFC69B;
+  grid-column: 1/2;
+}
 
-  .bookCover1 {
-    margin: 20px;
-    grid-column: 2/3;
-  }
+.bookCover1 {
+  margin: 20px;
+  grid-column: 2/3;
+}
 
-  .filter {
-    margin: 20px;
-    padding: 10px;
-    border: 2px solid #EFC69B;
-    grid-column: 3/4;
-  }
+.filter {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #EFC69B;
+  grid-column: 3/4;
+}
