@@ -9,7 +9,7 @@ const articles = [
 		imgAlt: 'Book cover for Septimus Heap 1',
 		ages: '10-14',
 		genre: 'Fantasy',
-		stars: '****'
+		stars: '⭐⭐⭐⭐'
 	},
 	{
 		id: 2,
@@ -25,3 +25,29 @@ const articles = [
 		stars: '⭐⭐⭐⭐'
 	}
 ]
+
+
+
+function bookTemplate(book){
+	
+	return`
+	<div class="bookEntry">
+            <div class="bookInfo">
+                <ul>
+                    <li>${book.date}</li>
+                    <li>${book.ages}</li>
+                    <li>${book.genre}</li>
+                    <li>${book.stars}</li>
+                </ul>
+            </div>
+
+            <div class="bookCover">
+                <h2>${book.title}</h2>
+                <div class=image><img src=${book.imgSrc} alt=${book.imgAlt}></div>
+                <p>${book.description}</p>
+            </div>
+        </div>
+	`
+}
+
+

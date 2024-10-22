@@ -38,36 +38,35 @@ nav{
   border-bottom: 2px solid #EFC69B;
 }
 
-.grid_container{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-}
-
-.bookEntry{
-grid-column: 1/3;
-display: grid;
-}
-
 .bookInfo {
   text-align: right;
-  margin: 20px;
-  padding: 10px;
   border-right: 2px solid #EFC69B;
-  grid-column: 1/2;
 }
 
-.bookCover {
-  margin: 20px;
-  grid-column: 2/3;
-}
 
 .filter {
-  margin: 20px;
-  padding: 10px;
   border: 2px solid #EFC69B;
-  grid-column: 3/4;
+  padding: 10px;
 }
 
 .image{
   text-align: center;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.bookEntry{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.bookInfo{
+  padding: 10px;
+}
+
+.bookCover{
+  padding: 10px;
 }
