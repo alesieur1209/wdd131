@@ -1,0 +1,90 @@
+.recipe_book_logo{
+    height: 100px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recipe-container{
+    border: 1px solid black;
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.recipe-image{
+    height: 400px;
+}
+
+.recipe-information{
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container{
+    text-align: center;
+}
+
+.search-bar {
+    width: 90%;      /* Set the width */
+    height: 20px;      /* Set the height */
+    padding: 10px;     /* Add padding for more space inside */
+    font-size: 16px;   /* Increase the font size */
+    border-radius: 5px; /* Add rounded corners if desired */
+  }
+
+  .search-button{
+    position: relative;
+    bottom: -15px;
+    right: 50px;
+  }
+
+  .credits{
+    text-align:left;
+    margin-left: 50px;
+  }
+
+  .credits a{
+    text-decoration: none; /* Removes the underline from the link */
+    border: none;  
+    color: rgb(0, 181, 252);
+  }
+
+  .social{
+    text-align: right;
+    margin-right: 50px;
+    position:relative;
+    top: -50px;
+  }
+
+  .social img{
+    height: 50px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .recipe-title{
+    color: rgb(0, 181, 252);
+    font-size: 50px;
+  }
+
+  .recipe-description{
+    font-size: 25px;
+  }
