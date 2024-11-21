@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipes</title>
     <link rel="stylesheet" href="recipes.css" />
-    <script src="main.js" type="module" defer></script>
+    <script type="module" src="main.js" defer></script>
   </head>
   <body>
     <header>
@@ -18,7 +18,7 @@
     </header>
 
     <main>
-      <div class="search-container">
+      <form class="search-container">
         <label for="search"></label>
         <input
           type="text"
@@ -27,30 +27,12 @@
           placeholder="Find a Recipe..."
         />
         <input type="image" src="images/magnifying-glass.png" alt="Search" class="search-button">
+      </form>
+
+      <div id="recipe-output">
+        <!---inject the code into here--->
       </div>
 
-      <div class="recipe-container">
-        <img
-          src="./images/sweet-potato-waffle-md.jpg"
-          class="recipe-image"
-          alt="picture of recipe"
-        />
-        <div class="recipe-information">
-          <h2 class="recipe-title">Recipe Title</h2>
-          <span
-	          class="rating"
-	          role="img"
-	          aria-label="Rating: 4 out of 5 stars"
-          >
-	        <span aria-hidden="true" class="icon-star">⭐</span>
-	        <span aria-hidden="true" class="icon-star">⭐</span>
-	        <span aria-hidden="true" class="icon-star">⭐</span>
-	        <span aria-hidden="true" class="icon-star-empty">⭐</span>
-	        <span aria-hidden="true" class="icon-star-empty">☆</span>
-          </span>
-          <p class="recipe-description">ofijsosdonso nsofdnsfon ofdn osnfdosn soifno nosainidfsaoinfso n soinfnosnf osiofn</p>
-        </div>
-      </div>
     </main>
 
     <footer>
